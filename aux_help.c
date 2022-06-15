@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * aux_help_env - Help information for the builtin env
@@ -77,4 +77,4 @@ void aux_help_exit(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 	help = "statusis that of the last command executed\n";
 	write(STDOUT_FILENO, help, _strlen(help));
-} 
+}
